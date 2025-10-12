@@ -1,1 +1,2 @@
-SPECIFIC_VAR: specific-value
+RABBITMQ_USER: roboshop
+RABBITMQ_PASS: roboshop123
