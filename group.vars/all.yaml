@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb.kranthi.fun
+REDIS_HOST: redis.kranthi.fun
+CATALOGUE_HOST: catalogue.kranthi.fun
+CART_HOST: cart.kranthi.fun
+USER_HOST: user.kranthi.fun
+RABBITMQ_HOST: rabbitmq.kranthi.fun
+MYSQL_HOST: mysql.kranthi.fun
+SHIPPING_HOST: shipping.kranthi.fun
+PAYMENT_HOST: payment.kranthi.fun
