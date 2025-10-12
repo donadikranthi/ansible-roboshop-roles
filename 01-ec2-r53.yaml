@@ -4,7 +4,7 @@
   vars:
     ami_id: ami-09c813fb71547fc4f6 # amazon linux 2023 in us-east-1
     sg_id: sg-069f722e1125dd734 # replace with your SG ID
-    zone_id: "Z0948150OFPSYTNVYZOY" # replace with your ID
+    zone_id: "Z04572451B9X32T33PSC8" # replace with your ID
     domain_name: "kranthi.fun"
     # we can pass instances through command line using -e
     # instances: 
