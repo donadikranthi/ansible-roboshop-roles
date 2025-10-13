@@ -10,7 +10,7 @@
   args:
     chdir: /app
 
-- name: move jar file
+##- name: move jar file
   ##ansible.builtin.command: mv target/shipping-{{ version }}.jar shipping.jar
   ##mv target/shipping-1.0.jar shipping.jar
   args:
