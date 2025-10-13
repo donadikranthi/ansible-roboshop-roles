@@ -16,13 +16,13 @@
   - cryptography
   - PyMySQL
 
-- name: import shipping data into mysql
+## - name: import shipping data into mysql
   community.mysql.mysql_db:
     state: import
     name: all
-    login_host: mysql.kranthi.fun
-    login_user: roboshop
-    login_password: roboshop123
+    login_host: "{{ MYSQL_HOST }}"
+    login_user: "{{ MYSQL_ROOT_USER }}"
+    login_password: "{{ MYSQL_ROOT_PASSWORD }}"
     target: "{{ item }}"
   loop:
   - /app/db/schema.sql
