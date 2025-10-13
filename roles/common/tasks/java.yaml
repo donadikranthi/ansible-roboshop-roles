@@ -11,8 +11,6 @@
     chdir: /app
 
 - name: move jar file
-  ansible.builtin.command:
-   src: "payment.kranthi.fun -{{ version | default('latest') }}.jar"
-
+  ansible.builtin.command: mv target/{{ component }}-{{ version }}.jar {{ component }}.jar
   args:
     chdir: /app
