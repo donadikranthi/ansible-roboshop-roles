@@ -22,7 +22,7 @@
     name: all
     login_host: mysql.kranthi.fun
     login_user: roboshop
-    login_password: Roboshop123
+    login_password: roboshop123
     target: "{{ item }}"
   loop:
   - /app/db/schema.sql
