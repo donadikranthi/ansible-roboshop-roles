@@ -11,6 +11,6 @@
     chdir: /app
 
 - name: move jar file
-  command: mv target/ payment.kranthi.fun -- -{{ version }}.jar shipping.kranthi.fun.jar
+  command: mv /opt/app/target/ /opt/app/payment.kranthi.fun -- -{{ version }}.jar shipping.kranthi.fun.jar
   args:
     chdir: /app
