@@ -11,6 +11,6 @@
     chdir: /app
 
 - name: move jar file
-  command: mv /opt/app/target/ /opt/app/payment.kranthi.fun -- -{{ version }}.jar shipping.kranthi.fun.jar
+  ansible.builtin.command: mv target/{{ component }}-{{ version }}.jar {{ component }}.jar
   args:
     chdir: /app
