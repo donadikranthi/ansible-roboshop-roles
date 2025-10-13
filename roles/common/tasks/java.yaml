@@ -12,7 +12,7 @@
 
 - name: move jar file
   ansible.builtin.command:
-   src: "somefile-{{ version | default('latest') }}.jar"
+   src: "shipping.kranthi.fun-{{ version | default('latest') }}.jar"
 
   args:
     chdir: /app
