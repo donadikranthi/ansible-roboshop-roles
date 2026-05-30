@@ -5,7 +5,7 @@
     ami_id: ami-0220d79f3f480ecf5
     sg_id: sg-06cbfac048bc6f429 # replace with your SG ID
     zone_id: "Z01986933OSMNS8YES912" # replace with your ID
-    domain_name: "kranthi.fun"
+    domain_name: "kranthi86s.fun"
     # we cam pass instances through command line using -e option 
     # - mongodb
     # - mysql
